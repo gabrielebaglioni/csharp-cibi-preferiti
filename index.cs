@@ -1,8 +1,8 @@
 //Console.WriteLine("Hello, World!");
 
 string[] food = { "pasta", "pizza", "patatine", "burger", "tonno" };
-Console.Write("numero di cibi ");
-Console.Write(food.Length);
+Console.Write("numero di cibi " + food.Length);
+//Console.Write(food.Length);
 Console.WriteLine(" ");
 
 food.ToList().ForEach(Console.WriteLine);
@@ -18,4 +18,4 @@ Console.Write(food[4]);
 
 Console.WriteLine(" ");
 Console.Write("Il mio cibo intermedio è ");
-Console.Write(food[2]);
+Console.Write(food[food.Length/2]);
